@@ -1,0 +1,9 @@
+The code you provided successfully generates a synthetic dataset simulating the relationship between advertising spend and sales, and saves it to a CSV file. Here's a summary of the steps it follows:
+
+Imports necessary libraries: It imports pandas for handling data structures and numpy for generating random numbers.
+Generates synthetic data:
+ad_spend is generated as a uniform distribution between $5000 and $50,000 (scaled by 1000 to match the range in the formula).
+The dependent variable data_sales is calculated using the formula Sales = 3.5 * Advertising Spend + noise, where noise is added for realism, simulating some measurement error or variability.
+Creates a DataFrame: It then stores the generated data in a pandas DataFrame with two columns: Advertising_Spend and Sales.
+Saves the dataset: The data is saved as a CSV file named 'business_linear_regression_dataset.csv' to the current working directory.
+Use a CSV file in transform to code in data levels.
